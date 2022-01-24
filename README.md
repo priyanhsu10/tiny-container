@@ -1,5 +1,5 @@
 # tiny-container is IOC container Open source project 
-This will small and easy to use  IOC container 
+This is small and easy to use  IOC container 
 
 New   JAVA MVC framework will be launch . this framework use this 
 IOC container 
