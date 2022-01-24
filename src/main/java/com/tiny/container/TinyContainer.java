@@ -51,7 +51,7 @@ public class TinyContainer {
 
     public Object createInstance(Class source, Descriptor descriptor) {
         boolean isSingleton=  descriptor.getScope().equals(Scope.Singleton);
-        boolean isScope=  descriptor.getScope().equals(Scope.Singleton);
+        boolean isScope=  descriptor.getScope().equals(Scope.RequestScope);
         if(isScope && scopeTank.containsKey(source)){
             return scopeTank.get(source);
         }
